@@ -15,7 +15,7 @@ final router = GoRouter(initialLocation: '/', routes: [
     builder: (context, state) => HomeScreen(),
   ),
   GoRoute(
-    path: '/signed_in',
+    path: '/signin',
     builder: (context, state) => SignedIn(username: state.extra as String),
   ),
 ]);
