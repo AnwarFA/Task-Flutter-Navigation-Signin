@@ -2,13 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:sign_in/pages/home_screen.dart';
 import 'package:sign_in/pages/signed_in.dart';
 import 'package:go_router/go_router.dart';
+
 // Step 2
 
 void main() {
   runApp(MyApp());
 }
 
-final router = GoRouter(routes: [
+final router = GoRouter(initialLocation: '/', routes: [
   GoRoute(
     path: '/',
     builder: (context, state) => HomeScreen(),

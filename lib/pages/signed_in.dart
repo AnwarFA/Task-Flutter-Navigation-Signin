@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'home_screen.dart';
-import 'package:go_router/go_router.dart';
 
 class SignedIn extends StatelessWidget {
   // Step 5
